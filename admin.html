@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Admin Dashboard</h2>
+<nav>
+    <a href="{{ url_for('reports') }}">View Reports</a>
+    <a href="{{ url_for('issue_book') }}">Issue Book</a>
+    <a href="{{ url_for('return_book') }}">Return Book</a>
+</nav>
+{% endblock %}
